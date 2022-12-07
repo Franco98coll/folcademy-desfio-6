@@ -1,0 +1,331 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    max-width: 100%;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    margin-top: -20px;
+    display: flex;
+
+}
+nav{
+    width: 100%;
+    margin-top: 35px;
+
+}
+
+header div nav ul li {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 15.6px;
+    padding: 5px 10px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 45px;
+    color:rgb(249, 249, 249)
+}
+.link{
+    text-decoration: none;
+}
+.link :hover{
+    border-radius: 8px;
+    padding: 5px 10px;
+    background-color: #646b63;
+}
+.logo{
+    margin-left: 20px;
+    height: 70px;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 65px;
+}
+.btnn{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    padding: 8px 20px;
+    line-height: 16px;
+    color: rgb(17, 17, 17);
+    background-color: rgb(0, 178, 207);
+    border-radius: 13px;
+    margin-left: 200px;
+    float: right;
+    margin-top: 32px;
+}
+.btnn:hover {
+    background-color: rgb(0, 178, 207);
+    opacity: 85%;
+}
+.btnn a{
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+.btnn a:hover{
+    color: rgb(17, 17, 17);
+}
+.section1{
+    background: url(/img/open-graph-2e582ae9fae8b0b396ca46ff21fd47a8.jpg);
+    background-size: cover;
+    height: 625px;
+}
+.btnn2{
+    border: #646b63;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+    padding: 20px 70px;
+    line-height: 16px;
+    color: rgb(17, 17, 17);
+    background-color: rgb(0, 178, 207);
+    margin:calc(43%) 485px;
+
+}
+.btnn2:hover{
+    border-style: double;
+    padding: 18px 68px;
+}
+.section2{
+    height: 200px;
+    width: 1210px;
+}
+#redes{
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 50px;
+    margin-left: 50px;
+    height: 70px;
+    background-color: #051C24;
+    padding: 30px 30px;
+    margin-top: 60px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'League Spartan', sans-serif;
+    text-decoration: none solid rgb(255, 255, 255);
+
+}
+#redes::before{
+    content: "";
+    position: absolute;
+    top: 745px;
+    right: 64px;
+    border-top: 20px solid #ffffff;
+    border-left: 20px solid #051C24;
+}
+#redes h3{
+    margin-right: 40px;
+    margin-left: 15px;
+    margin-top: 7px;
+}
+svg{
+    margin-left: 25px;
+    height: 30px;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.section3{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    background-image: url(/img/fondo.png);
+    background-size: auto;
+}
+.card1{
+    margin-top: 100px;
+    border: 0.3px #333 solid;
+    height: 350px;
+    width: 269px;
+    margin-left: 95px;
+    font-family: 'League Spartan', sans-serif;
+    box-shadow: 7px 13px 23px 9px #333;
+    background-color: #ffffff;
+}
+.card1 img{
+    height: 150px;
+
+}
+.card1 h3{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 600;
+}
+.card1 p{
+    margin:6px;
+    text-align: center;
+    font-weight: 400;
+}
+.row{
+    flex-wrap: nowrap;
+}
+.col-md-4 a{
+    text-decoration: none;
+    color: rgb(26, 29, 33);
+}
+.col-md-4 a:hover{
+    color: rgb(26, 29, 33);
+}
+.section4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.section4 img{
+    border-radius: 40px;
+    border: 1px solid;
+    height: 400px;
+}
+footer{
+    font-weight: 500;
+    font-size: 13px;
+    height: 150px;
+    background-color: #111111;
+    text-align: center;
+    color: rgb(126, 126, 126);
+    justify-content: center;
+    margin: 0%;
+    font-family: 'League Spartan', sans-serif;
+}
+footer p{
+    margin-top: 50px;
+}
+
+/* segunda pagina*/
+.section5{
+    width: 100%;
+    background-image: url(/img/carrusel3.jpg);
+    height: 100vh;
+}
+.section5 form{
+    position: absolute;
+    bottom: 220px;
+    right: 450px;
+}
+form{
+    padding: 130px 40px;
+    padding-top: 30px;
+    background-color: #ffffff;
+}
+.form-control{
+    border: #333;
+    background-color: #E8F0FE;
+    border-radius: 5px;
+    padding: 15px 80px;
+    margin-bottom: 20px;
+}
+form h5{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 22.77px;
+    font-weight: 700;
+    font-family: 'League Spartan', sans-serif;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    line-height: 25px;
+}
+.ini{
+    margin-right: 8px;
+    border: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.section5 form a button svg{
+    color: #fff;
+    position: relative;
+    right: 12px;
+}
+#face{
+    background-color: #1877F2;
+}
+#ggl{
+    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #fff;
+    border: 1px solid #333;
+
+}
+#apl{
+    background-color: black;
+}
+#check{
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+}
+#flexCheckDefault{
+    width: 15px ;
+    height: 15px;
+}
+#flexCheckDefault{
+    position: relative;
+    bottom: 3px;
+    margin-right: 5px;
+}
+#btnini{
+    width: 70px;
+    background-color: #00B2CD;
+    border: 1px  #333;
+    border-radius: 25px;
+    padding: 20px;
+    position: relative;
+    left: 110px;
+    top: 30px;
+}
+#btnini svg{
+    position: relative;
+    right: 25px;
+}
+#btnini:hover{
+    opacity: 75%;
+}
+.linkini{
+    text-decoration: none;
+    color: rgb(75, 74, 74);
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 9px;
+    position: relative;
+    top: 100px;
+}
+#linkform{
+    position: relative;
+    top:120px;
+    right: 100px;
+    bottom: 200px;
+}
+.linkini:hover{
+    color: #111;
+}
+#loguito{
+    height: 80px;
+    position: absolute;
+    left: 20px;
+}
+@media screen and (max-width:425px){
+    #redes{
+        width: 350px;
+    }
+    #redes h3{
+        font-size: 10px;
+    }
+    #redes svg{
+        height: 10px;
+    }
+}
